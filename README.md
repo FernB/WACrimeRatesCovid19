@@ -1,4 +1,4 @@
-# Project Title: Impact of Covid-19 on WA Crimes 
+# Impact of Covid-19 on WA Crimes 
 
 
 ![pic1](Title_Capture.PNG)
@@ -14,7 +14,8 @@ The aim of this project is to understand the impacts of Covid-19 on WA crime rat
 
 
 # Structure 
-|_datasource                             # data resources 
+```
+|_datasource                                      # data resources 
     |_1800respect.csv
     |_ERP.xls
     |_Pooled data, time series (Tables 28a to 33b).xls
@@ -29,7 +30,7 @@ The aim of this project is to understand the impacts of Covid-19 on WA crime rat
     |_wa dv help google trend.csv
     |_wadvsearch.csv
 
-|_output               # saved cvs and png files 
+|_output                                           # saved cvs and png files 
     |_Crime.png
     |_Regionsdvinto.csv
     |_Regionsdvout.csv
@@ -56,7 +57,7 @@ The aim of this project is to understand the impacts of Covid-19 on WA crime rat
     |_timeframes.csv
     |_wbrcrimerates.png
 
-|_gitignore                                  # gitignore for ignoring some files 
+|_gitignore                                       # gitignore for ignoring some files 
 |_Police_Districts.shp
 |_Police_Districts.shp.xml
 |_Police_Districts.shx
@@ -70,19 +71,22 @@ The aim of this project is to understand the impacts of Covid-19 on WA crime rat
 |_crimetypecountsregions.png
 |_crimetyperatesregions.png
 |_dvratesregions.png
-
-
-
+```
 
 
 
 
 # Usage
+```
+# create environment 
+conda env create --file envname.yml
 
-
+# activate environment
+conda activate envname
+```
 
 # Questions 
-1. What was the impact of restrictions on crime in Wa?
+1. What was the impact of restrictions on crime in WA?
 2. Have all types of crime decreased?
 3. What about reports of increased domestic violence?
 4. How did Domestic Violence crime change in each region?
@@ -90,10 +94,9 @@ The aim of this project is to understand the impacts of Covid-19 on WA crime rat
 
 
 
-
 # Datasets
 |Source                                      |Link                                                        |
-|--------------------------------------------|-----------------------------------------------------------|
+|--------------------------------------------|------------------------------------------------------------|
 |Western Australia Police Force              |https://www.police.wa.gov.au/Crime/CrimeStatistics#/        |
 |Estimated Resident Population for WA        |https://profile.id.com.au/wapl/population-estimate?BMID=40  |
 |Google Trends                               |https://trends.google.com/trends/?geo=AU                    |
@@ -103,11 +106,25 @@ The aim of this project is to understand the impacts of Covid-19 on WA crime rat
 
 
 # Analysis 
-![Impact of Restrictions on Crime in WA](ImpactOfRestrictionsOnCrimeInWa.PNG)
+## __What was the impact of restrictions on crime in WA?__
+![Impact of Restrictions on Crime in WA](Impact_of_restrictions_on_crime_WA.PNG)
+
+Majority of regions experienced decrease in crime during the first ever Covid-19 lockdown period in WA during March, April and May in 2020. The only region that experienced increase in crime was Wheatbelt region. It was mainly Drug Offences that were on icrease in this region, during this period. 
+
+## __What about reports of increased domestic violence?__
+![Selection from 200 Guardian headlines on DV and lockdown](DV_Guardian_reports.PNG)
+
+Here is a snapshot of some articles on domestic violence and lockdown.
+
+## __Are there other indicators of domestic violence?__
 ![Google Search Trends](Google_Search_Trends.PNG)
-![Correlation Between Helpline Search and Crime Rate](Correlation_between_helpline_search _and_crime_rate.PNG)
 
+As victims and offenders were spending more time together with increased social isolation and decreased social movement, we wanted to look at how domestic violence was affected by the lockdown during the same period. Decreased social movement was possibly the main reason which may have restricted avenues for women to seek help. This graph shows the difference in looking up domestic violence as a topic as opposed to looking up the 1800 number in order to seek help. 
 
+## __What is the correlation between DV, 1800 helpline and crime?__
+![Correlation Between Helpline Search and Crime Rate](Correlation_between_DV_and_1800respsect.PNG)
+
+This graph shows weak correlation between google searches and crime rates. However, there is a moderate positive correlation between 1800respect search and crime. The relationship between domestic violence google search and crime is not as strong as in the previous case. 
 
 
 
