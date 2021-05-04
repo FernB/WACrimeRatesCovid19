@@ -117,7 +117,7 @@ Exploration and analysis were generally conducted together as our understanding 
 
 * Google trends were obtained for all of Australia due to the limited WA data
 
-*1800respect was chosed as a search term as it is the national and most prominent domestic violence helpline and there was limited time to reserch other helplines
+* 1800respect was chosed as a search term as it is the national and most prominent domestic violence helpline and there was limited time to reserch other helplines
 
 * An API key is required to access the Gaurdian API however it is free to register 
 
