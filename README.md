@@ -101,10 +101,8 @@ Or set up environment with out projectenv.yml install:
 
 # Questions 
 1. What impact did coronavirus restrictions have on crime rate in WA?
-2. Have all types of crime decreased?
-3. What about reports of increased domestic violence?
-4. How did Domestic Violence crime change in each region?
-5. Are there other indicators of domestic violence?
+2. What impact did coronavirus restrictions have on domestic violence crime rate in WA?
+3. What other indicators can be used to estimate the level of domestic violence crime?
 
 
 
