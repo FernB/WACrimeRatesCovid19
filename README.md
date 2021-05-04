@@ -137,9 +137,9 @@ Exploration and analysis were generally conducted together as our understanding 
 The general trends showed that most regions experienced a descrease in total crime rates:
 
 
-<br>
+
 ![Impact of Restrictions on Crime in WA](output/crimeratesregions.png)
-<br>
+
 
 
 Closer examination of the difference in crime rate before lockdown (February 2020) and into lockdown (May 2020) showed that crime rates dropped by 4.6 to 34% in all regions except Wheatbelt which experienced an increase of 14%:
