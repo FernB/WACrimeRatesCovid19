@@ -30,10 +30,11 @@ Our hypothesis was:
     |_domestic violence google trend.csv
     |_dv help google trend.csv
     |_googlesearchdvastopic.csv
-    |_sasExport.xls
-    |_sasexport.xlsx
     |_wa dv help google trend.csv
     |_wadvsearch.csv
+    |_Police_Districts.shp
+    |_Police_Districts.shp.xml
+    |_Police_Districts.shx
 
 |_output                                           # saved cvs and png files 
     |_Crime.png
@@ -63,18 +64,12 @@ Our hypothesis was:
     |_wbrcrimerates.png
 
 |_gitignore                                       # gitignore for ignoring some files 
-|_Police_Districts.shp
-|_Police_Districts.shp.xml
-|_Police_Districts.shx
 |_Presentation1.pptx
 |_Project Proposal - Group 3
 |_README.md
 |_Maps.ipynb
 |_WA Crime Rates.ipynb
-|_crimeratesregions.png
-|_crimetypecountsregions.png
-|_crimetyperatesregions.png
-|_dvratesregions.png
+
 ```
 
 
@@ -87,20 +82,20 @@ conda env create --file projectenv.yml
 
 
 # activate environment
-conda activate envname
+conda activate projectenv
 ```
 
 
-Or set up environment withouth yml install:
+Or set up environment with out projectenv.yml install:
 * python 3.8.5
 * pandas 1.2.4
 * numpy 1.20.1
 * matplotlib 3.3.4
 * geopandas 0.6.1
-* json
-* requests
-* datetime
-* scipy
+* json 0.9.5
+* requests 2.25.1
+* datetime 
+* scipy 1.6.2
 
 
 
@@ -128,15 +123,15 @@ Exploration and analysis were generally conducted together as our understanding 
 * Rates were calculated as offences per 100,000 people using the internationally recognised standard below:
 > Offence rate per 100,000 = (Offence count ÷ Estimated Resident Population) × 100,000
 
-*The Estimated Resident Population was derived from the WA Parlimentary Library(2)
+* The Estimated Resident Population was derived from the WA Parlimentary Library(2)
 
-*Domestic Violence crime was an aggregation of Assault(Family), Threatening Behaviour (Family) and Breach of Family Violence Restraint Order. Crimes in other catagories such as Sexual Assault may have also been domestic violence related but this was unable to be determined from the given statistics.
+* Domestic Violence crime was an aggregation of Assault(Family), Threatening Behaviour (Family) and Breach of Family Violence Restraint Order. Crimes in other catagories such as Sexual Assault may have also been domestic violence related but this was unable to be determined from the given statistics.
 
-*Google trends were obtained for all of Australia due to the limited WA data
+* Google trends were obtained for all of Australia due to the limited WA data
 
 *1800respect was chosed as a search term as it is the national and most prominent domestic violence helpline and there was limited time to reserch other helplines
 
-*An API key is required to access the Gaurdian API however it is free to register 
+* An API key is required to access the Gaurdian API however it is free to register 
 
 # Analysis 
 ## __What impact did coronavirus restrictions have on crime rate in WA?__
