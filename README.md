@@ -83,11 +83,22 @@ Our hypothesis was:
 # Usage
 ```
 # create environment 
-conda env create --file envname.yml
+conda env create --file projectenv.yml
+
 
 # activate environment
 conda activate envname
 ```
+
+
+Or set up environment withouth yml install:
+*python 3.8.5
+*pandas 1.2.4
+*numpy 1.20.1
+*matplotlib 3.3.4
+*geopandas 0.6.1
+
+
 
 # Questions 
 1. What was the impact of restrictions on crime in WA?
@@ -149,6 +160,6 @@ This graph shows almost no correlation between google searches for domestic viol
 
 
 # Contributors 
-Fern Bradder: (https://github.com/FernB)  
-Sri Vegunta: (https://github.com/SriVegunta)  
-Petra Moyle: (https://github.com/PetraMoyle)  
+:small_blue_diamond: Fern Bradder: (https://github.com/FernB)  
+:small_blue_diamond: Sri Vegunta: (https://github.com/SriVegunta)  
+:small_blue_diamond: Petra Moyle: (https://github.com/PetraMoyle)  
