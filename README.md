@@ -92,11 +92,11 @@ conda activate envname
 
 
 Or set up environment withouth yml install:
-*python 3.8.5
-*pandas 1.2.4
-*numpy 1.20.1
-*matplotlib 3.3.4
-*geopandas 0.6.1
+Markup : *python 3.8.5
+	*pandas 1.2.4
+	*numpy 1.20.1
+	*matplotlib 3.3.4
+	*geopandas 0.6.1
 
 
 
