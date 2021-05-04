@@ -25,46 +25,36 @@ Our hypothesis was:
     |_ERP.xls
     |_Pooled data, time series (Tables 28a to 33b).xls
     |_Time series (Tables 4a to 8d).xls
-    |_Violence prevalence and time series (Tables 1 to 5).xlsx
     |_WA Police Force Crime Timeseries.xlsx
-    |_domestic violence google trend.csv
-    |_dv help google trend.csv
     |_googlesearchdvastopic.csv
-    |_wa dv help google trend.csv
-    |_wadvsearch.csv
     |_Police_Districts.shp
     |_Police_Districts.shp.xml
     |_Police_Districts.shx
 
-|_output                                           # saved cvs and png files 
-    |_Crime.png
+|_output                                           # output cvs and png files 
+    |_crimemap.png
+    |_crimeratesperiodbar.png
+    |_crimeratesregions.png
+    |_crimesinto.csv
+    |_crimessout.csv
+    |_crimespreandpostbar.png
+    |_crimetyperatesregions.png
+    |_dvmap.png
+    |_dvpreandpostbar.png
+    |_dvratesregions.png
+    |_googlesearchtrends.png
+    |_headlines.csv
     |_Regionsdvinto.csv
     |_Regionsdvout.csv
     |_Regionsinto.csv
     |_Regionsout.csv
-    |_WAkeycrimeheatmap.png
-    |_WAkeycrimetrends.png
-    |_crimemap.png
-    |_crimerates.png
-    |_crimeratesregions.png
-    |_crimesoverperiodbar.png
-    |_crimespercentchange.png
-    |_crimetyperatesregions.png
-    |_decreasingcrimes.png
-    |_decreasingwacrimes.png
-    |_dvmap.png
-    |_dvratesregions.png
-    |_gercrimerates.png
-    |_googlesearchtrends.png
-    |_headlines.csv
-    |_increasingcrimes.png
-    |_searchregressions.png
-    |_standardisedcrimes.png
+    |_regionspreandpostbar.png
+    |_searchregressionstogether.png
     |_timeframes.csv
     |_wbrcrimerates.png
 
 |_gitignore                                       # gitignore for ignoring some files 
-|_Presentation1.pptx
+|_Project 1 - Group3.pptx
 |_Project Proposal - Group 3
 |_README.md
 |_Maps.ipynb
