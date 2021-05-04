@@ -139,39 +139,51 @@ Exploration and analysis were generally conducted together as our understanding 
 The general trends showed that most regions experienced a descrease in total crime rates:
 
 
+
 ![Impact of Restrictions on Crime in WA](output/crimeratesregions.png)
+
 
 
 Closer examination of the difference in crime rate before lockdown (February 2020) and into lockdown (May 2020) showed that crime rates dropped by 4.6 to 34% in all regions except Wheatbelt which experienced an increase of 14%:
 
 
+
 ![Impact of Restrictions on Crime in WA](output/regionspreandpostbar.png)
+
 
 
 The bar graph below depicts crime rates pre, during and post lockdown, February, May and June respectively. It could be seen that only the most frequently commited crimes were worth considering in analysis:
 
 
+
 ![Impact of Restrictions on Crime in WA](output/crimeratesperiodbar.png)
+
 
 
 The crimes with the top 6 offence counts for the previous year, 2019, were selected as key crimes for examination. The trends of WA crime rates below showed that all of these crimes decreased over lockdown except for drug related offences.
 
 
+
 ![Impact of Restrictions on Crime in WA](output/crimetyperatesregions.png)
  
+
 
 ## __What impact did coronavirus restrictions have on domestic violence crime rate in WA?__
 
 The above observations did not support our hypothesis, there was no observable increase in domestic violence crime rates. We conducted an article search using The Gaurdian API for articles from March 2020 onwards containing "lockdown" and "domestic violence". Almost 1000 articles were retrieved and examination of the headlines confirmed that there were increases observed nationally and internationally.
 
 
-![Selection from 1000 Guardian headlines on DV and lockdown](readmeimages/apitable.png)
+
+![Selection from 1000 Guardian headlines on DV and lockdown](readmeimages/apitable.PNG)
+
 
 
 We then took a closer look at domestic violence crimes across each region, domestic violence related crimes were aggregated and the general trends showed that although most regions had a slight reduction in crime rates the Kimberley Region experiences the highest rates in the state and there was a significant increase which appears to have continued past the lockdown periods:
 
 
+
 ![Impact of Restrictions on Crime in WA](output/dvratesregions.png)
+
 
 
 This could mean that the impact of the lockdown on domestic violence was not immediate and has been pervasive after lockdown was lifted or that greater visibility of domestic violence over lockdown lead to more reporting.
@@ -179,13 +191,17 @@ This could mean that the impact of the lockdown on domestic violence was not imm
 The difference in domestic violence crime rates before lockdown (February 2020) and into lockdown (May 2020) were mapped for each region using the WAPOL mapping dataset:
 
 
+
 ![Impact of Restrictions on Crime in WA](output/dvmap.png)
+
 
 
 Both the above map and examination of the differences in the bar chart below showed that South West Region also experienced an increase in domestic violence. All other regions experienced a decrease:
 
 
+
 ![Impact of Restrictions on Crime in WA](output/dvpreandpostbar.png)
+
 
 
 ## __What other indicators can be used to estimate the level of domestic violence crime?__
@@ -194,13 +210,17 @@ The above information partially supported our hypothesis as some regions experie
 We thought to look at what other indicators we could use to measure domestic violence such as calls to helplines and use of other resources. Due to the limited recent public information on those statistics the best available resource to us was google search trends. We compared trends for searchs in Australia on "Domestic Violence" and "1800respect" with the WA domestic violence crime rates. An increase analogous to crime rates was observed over the lockdown period:
 
 
+
 ![Google Search Trends](output/googlesearchtrends.png)
+
 
 
 Although there appeared to be an increase in both search trends over the lockdown period, this did not immediately mean they were related to actual domestic violence. Both monthly search statistics were plotted against monthly domestic violence crime rates between 2016 and 2020 and correlations performed. 
 
 
+
 ![Correlation Between Helpline Search and Crime Rate](output/searchregressionstogether.png)
+
 
 
 There was no correlation between google searches for domestic violence as a topic and crime rates. However, there is a moderate positive correlation between searches for 1800respect as a keyword and crime. This relationship could indicate that it is a useful indicator of domestic violence, further investigation into other helpline search trends or the ability to obtain the actual helpline statistics would allow us to expand on this relationship.
