@@ -211,7 +211,7 @@ Although there appeared to be an increase in both search trends over the lockdow
 
 
 
-There was no correlation between google searches for domestic violence as a topic and crime rates. However, there is a moderate positive correlation between searches for 1800respect as a keyword and crime. This relationship could indicate that it is a useful indicator of domestic violence, further investigation into other helpline search trends or the ability to obtain the actual helpline statistics would allow us to expand on this relationship.
+There was no correlation between google searches for domestic violence as a topic and crime rates. However, there is a moderate (r = 0.43) and statistically significant (p = 0.0) positive correlation between searches for 1800respect as a keyword and crime. This relationship could indicate that it is a useful indicator of domestic violence, further investigation into other helpline search trends or the ability to obtain the actual helpline statistics would allow us to expand on this relationship. This data could be used to develop algorithms to be used in predictive policing, an emerging tactic in modern crime reduction.
 
 
 
